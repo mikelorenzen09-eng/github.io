@@ -1,40 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CV</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-  <header>
-    <nav>
+  <header class="site-header">
+    <nav aria-label="Main navigation">
       <ul class="nav-bar">
-      <li><a href="index.html">Omkring mig</a></li>
+        <li><a href="index.html">About Me</a></li>
+        <li><a href="cv.html" aria-current="page">CV</a></li>
         <li><a href="portfolio.html">Portfolio</a></li>
-        </ul>
+      </ul>
     </nav>
   </header>
 
   <main class="container">
-    <section>
-      <h1>Uddannelse</h1>
-      <li>Jeg har gået på Sønderris skolen hvor jeg har afsluttet 9 klasse.
-Rybners på Stx-linjen i 3 g. med Matematik A, fysik B og kemi B som
-hovedfag.</li>
-        <li>VIA College (2025 - 2028)</li>
-        <a href="Images/thumb.w293.h293.fill.webp"> <img src="Images/thumb.w293.h293.fill.webp" title="VIA"></a>
-      <h1>Erfaring</h1>
-      <li>Jeg har arbejdet i Fætter BR i 2 år fra jeg var 16 til 18.
-(opfyldning samt kassebetjening)
-I min gymnasietid har jeg kørt som pizzabud hos Star pizza samt stået
-for kassen og betjening af telefonen.
-Hjulpet til og ansat på deltid på arbejdspladsen hos min far som er
-tømrer/entreprenør, hvor jeg har fået en masse erfaring angående fysisk
-hårdt arbejde hvor man skulle holde hovedet koldt.</li>
-<a href="Images/COLOURBOX37651033.webp"> <img src="Images/COLOURBOX37651033.webp" title="pizza guy" width="190" height="250"/></a>
+    <h1>CV</h1>
 
-      <h1>færdigheder</h1>
-        <li>HTML, CSS, java, og python</li>
-        <a href="Images/p-80-java.webp"> <img src="Images/p-80-java.webp" title="java icon"/></a>
+    <section class="cv-grid">
+      <section class="cv-section">
+        <h2>Education</h2>
+        <ul>
+          <li>Sønderris School – completed 9th grade</li>
+          <li>Rybners STX – Mathematics A, Physics B, Chemistry B</li>
+          <li>VIA College – Software engineering degree (2025–2028)</li>
+        </ul>
+      </section>
+
+      <section class="cv-section">
+        <h2>Work Experience</h2>
+        <ul>
+          <li>Fætter BR – 2 years (stocking shelves and cashier duties)</li>
+          <li>Star Pizza – pizza delivery driver and customer service</li>
+          <li>Assisted a carpenter/contractor – physically demanding work and hands-on experience</li>
+        </ul>
+      </section>
+
+      <section class="cv-section">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML, CSS and JavaScript</li>
+          <li>Java (basic)</li>
+          <li>Python (basic)</li>
+        </ul>
+      </section>
+
+      <section class="cv-section">
+        <h2>Certifications / Languages</h2>
+        <ul>
+          <li>Languages: Danish, English, little amount of spanish/german</li>
+          <li>Certifications: Truck, Car and Motorcycle</li>
+        </ul>
+      </section>
     </section>
   </main>
 </body>

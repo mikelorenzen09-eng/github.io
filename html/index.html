@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>omkring mig</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About Me</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-  <header>
-    <nav>
+  <header class="site-header">
+    <nav aria-label="Main navigation">
       <ul class="nav-bar">
+        <li><a href="index.html" aria-current="page">About Me</a></li>
         <li><a href="cv.html">CV</a></li>
         <li><a href="portfolio.html">Portfolio</a></li>
       </ul>
@@ -16,18 +19,23 @@
   </header>
 
   <main class="container">
-    <section class="omkring">
-      <div>
-        <h1>Omkring mig</h1>
+    <section class="about-grid">
+      <div class="about-text">
+        <h1>About Me</h1>
         <p>
-Jeg er en frisk ung mand på 22 år.
-I min fritid har jeg en stor passion for biler, og har igennem mange år
-også haft en stor passion for computer og IT. 
-Da jeg blev færdiguddannet i 2023 på Rybners STX, har jeg beskæftiget
-mig med et fuldtidsarbejde hos Ho Feriecenter som tjener hvor jeg bl.a.
-var lukkeansvarlig i 9 måneder. studerer pt. hos VIA College.</p>
-   <a href="Images/IMG_2534.png"> <img src="Images/IMG_2534.png" title="profile picture" width="201" height="437" class="img2"/></a>
+          I am a motivated 22-year-old male with a strong passion for cars. In my spare time,
+  I have also developed a long-standing interest in computers and IT, as well as for the field on currently studying, being software engineering.
+  one of my favorite things to do with my spare time is working on "small" project or spending time watching other people building projects.
+        </p>
+        <p>
+          I graduated from Rybners STX in 2023 and am currently studying at VIA University College.
+        </p>
       </div>
+
+      <figure class="about-photo">
+        <img class="card-img" src="../Images/mike.png" alt="Profile photo" />
+        <figcaption>Profile picture</figcaption>
+      </figure>
     </section>
   </main>
 </body>

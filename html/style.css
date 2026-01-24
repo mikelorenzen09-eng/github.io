@@ -109,6 +109,7 @@ img {
 .projects-grid {
   display: grid;
   gap: 1rem;
+  grid-template-columns: 2;
 }
 
 .project-card {

@@ -10,14 +10,19 @@
 
 <body>
   <header class="site-header">
-    <nav aria-label="Main navigation">
-      <ul class="nav-bar">
-        <li><a href="index.html">About Me</a></li>
-        <li><a href="cv.html" aria-current="page">CV</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-      </ul>
-    </nav>
-  </header>
+  <nav aria-label="Main navigation" class="nav-wrap">
+    <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" type="button">
+      <span class="sr-only">Toggle menu</span>
+      <span class="burger" aria-hidden="true"></span>
+    </button>
+
+    <ul id="primary-nav" class="nav-bar">
+      <li><a href="index.html">About Me</a></li>
+      <li><a href="cv.html" aria-current="page">CV</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+    </ul>
+  </nav>
+</header>
 
   <main class="container">
     <h1>CV</h1>
@@ -71,6 +76,32 @@
       </section>
     </section>
   </main>
-   <script src="example.js"></script>
+  <footer class="footer">
+  <div class="footer-content">
+
+    <div class="footer-item">
+      <span class="icon">📍</span>
+      <span>Horsens, Denmark</span>
+    </div>
+
+    <div class="footer-item">
+      <span class="icon">✉️</span>
+      <a href="mailto:mikelorenzen09@gmail.com">mikelorenzen09@gmail.com</a>
+    </div>
+
+    <div class="footer-item">
+      <span class="icon">📱</span>
+      <a href="tel:+4529179792">(+45) 29179792</a>
+    </div>
+
+    <div class="footer-item">
+      <span class="icon">🎂</span>
+      <span>August 6, 2003</span>
+    </div>
+
+  </div>
+</footer>
+
+<script src="example.js"></script>
 </body>
 </html>

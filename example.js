@@ -7,3 +7,16 @@ window.addEventListener('scroll', () => {
     header.style.boxShadow = '0 10px 30px rgba(0,0,0,0.12)';
   }
 });
+
+// Mobile burger menu toggle
+document.addEventListener("DOMContentLoaded", () => {
+  const header = document.querySelector(".site-header");
+  const toggle = document.querySelector(".nav-toggle");
+
+  if (!header || !toggle) return;
+
+  toggle.addEventListener("click", () => {
+    const isOpen = header.classList.toggle("nav-open");
+    toggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
+  });
+});
